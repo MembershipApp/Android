@@ -1,0 +1,131 @@
+/*****************************************************************
+ * Target specific device below style using @media query
+ *****************************************************************/
+
+/* All devices */
+#videotour video
+{
+			width:100%;
+			height:150px;
+			margin:10px 0 0px 0;
+			border: none;
+}
+	
+#LoginContent button {
+			display: block;
+			margin-top: 25px;
+			width: 43%;
+			float: left;
+			border-raduis: 8px;
+			-webkit-border-raduis: 8px;
+			-moz-border-raduis: 8px;				
+}
+
+
+/* CSS for Low-density screens goes here *
+ * Ex: HTC Evo, HTC Incredible, Nexus One */
+@media only screen and (-webkit-device-pixel-ratio: .75) {
+  
+   
+   
+}
+
+
+/* CSS for Medium-density screens goes here *
+ * Ex: Samsung Ace, Kindle Fire, Macbook Pro *
+ * max-device-width added so you don't target laptops and desktops */
+@media only screen and (-webkit-device-pixel-ratio: 1) and (max-device-width: 768px) {
+  
+   
+   
+}
+
+
+/* CSS for High-density screens goes here *
+ * Ex: Samsung Galaxy SII, HTC Nexus One, HTC Evo 3D */
+@media only screen and (-webkit-device-pixel-ratio: 1.5) { 		
+	#dashboarditems
+    {  
+    	float: left;		
+		margin:0px auto;
+		text-align:center;
+		padding: 0px;		
+		width: 100%;	
+		height: 100%;
+		padding: 0px;	
+    }
+	
+	
+    #dashboarditems ul
+    {		
+       	margin: 2px auto; 
+    	padding: 0px;    	
+    	width:100%;     
+	  	height:100%;    
+    }
+	
+	#dashboarditems li
+    {  
+		display:inline-block;
+    	padding:36px 0px;
+		width: 49.65%;			
+	}
+}
+
+
+/* CSS for Ultra-high-density (Retina) screens goes here *
+ * Ex: Samsung Galaxy SIII, HTC Evo LTE, iPhone 4 */
+@media only screen and (-webkit-device-pixel-ratio: 2) {
+	#dashboarditems
+    {  
+    	float: left;		
+		margin: 2px auto;
+		padding: 0px;		
+		width: 100%;	
+		height: 100%;
+		padding: 0px;	
+    }
+		
+    #dashboarditems ul
+    {		
+       	margin: auto; 
+    	padding: 0px;    	
+    	width:100%;     
+	  	height:100%;    
+    }
+	
+	#dashboarditems li
+    {  
+		display:inline-block;
+    	padding:36px 0px;
+		width: 49.4%;
+		height:89px;
+		margin: 0px;
+        padding-top:25px;	
+	}
+	
+	#membership_id {
+		display: block;
+		margin: 10px auto;
+		width: 90%;	
+		border-raduis: 8px;
+		-webkit-border-raduis: 8px;
+		-moz-border-raduis: 8px;		
+	}		
+}
+
+/* Target Samsung Galaxy SIII more specific */
+@media only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait) { 
+	#dashboarditems li
+    {  
+		padding-top:65px;
+		height:123px;		
+	}
+}
+
+/* iPhone 5 or iPod Touch 5th generation styles  */
+@media (device-height: 568px) and (-webkit-min-device-pixel-ratio: 2) {  
+  
+  
+
+}

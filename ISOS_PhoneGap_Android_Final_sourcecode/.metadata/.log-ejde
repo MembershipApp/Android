@@ -1,0 +1,340 @@
+14:32:39,134 TRACE [R] ContextManager starting, bundle version: 1.5.2.201204302029
+14:32:39,319 DEBUG [C] Property change listener is enabled.
+14:32:39,468 TRACE [C] LC_filtering_set was changed from "false" to "true"
+14:32:39,472 DEBUG [U] Starting Search for CPs
+14:32:39,517 DEBUG [U] CP named BlackBerry Java SDK version 5.0.0 was found at /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack5.0.0_5.0.0.36/components
+14:32:39,551 DEBUG [U] CP named BlackBerry Java SDK version 6.0.0 was found at /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack6.0.0_6.0.0.43/components
+14:32:39,577 DEBUG [U] CP named BlackBerry Java SDK version 7.0.0 was found at /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.0.0_7.0.0.33/components
+14:32:39,586 DEBUG [U] CP named BlackBerry Java SDK version 7.1.0 was found at /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.1.0_7.1.0.10/components
+14:32:40,085 DEBUG [K] Event [org.eclipse.jdt.launching.PROPERTY_JAVADOC_LOCATION] for: *OLD* was[http://download.oracle.com/javase/7/docs/api/] *NEW* is [].
+14:32:40,097 DEBUG [K] VM: *SWITCH* from [NULL] to [com.oracle.java.7u10.jdk$Java SE 7 (MacOS X Default)]
+14:32:44,035 DEBUG [K] VM: *ADDED* [com.oracle.java.7u10.jdk$/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home]
+14:32:44,036 DEBUG [K] VM: *ADDED* [com.oracle.java.7u09.jdk$/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home]
+14:32:44,036 DEBUG [K] VM: *ADDED* [com.apple.javajdk16$/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home]
+14:32:44,082 TRACE [W] Attempting to create VM with name - BlackBerry JRE 7.1.0
+14:32:44,125 DEBUG [K] VM: *ADDED* [BlackBerry JRE 7.1.0$/adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.1.0_7.1.0.10/components]
+14:32:44,136 TRACE [C] openStartupOnEclpseFirstStart was changed from "false" to "false"
+14:32:44,152 TRACE [W] Attempting to create VM with name - BlackBerry JRE 7.0.0
+14:32:44,174 DEBUG [K] VM: *ADDED* [BlackBerry JRE 7.0.0$/adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.0.0_7.0.0.33/components]
+14:32:44,191 TRACE [W] Attempting to create VM with name - BlackBerry JRE 6.0.0
+14:32:44,219 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$/adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack6.0.0_6.0.0.43/components]
+14:32:44,232 TRACE [W] Attempting to create VM with name - BlackBerry JRE 5.0.0
+14:32:44,254 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$/adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack5.0.0_5.0.0.36/components]
+14:32:44,268 DEBUG [K] Event [org.eclipse.jdt.launching.PROPERTY_JAVADOC_LOCATION] for: *OLD* was[http://download.oracle.com/javase/7/docs/api/] *NEW* is [].
+14:32:44,268 DEBUG [K] Event [org.eclipse.jdt.launching.PROPERTY_JAVADOC_LOCATION] for: *OLD* was[http://download.oracle.com/javase/6/docs/api/] *NEW* is [].
+14:32:44,271 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+14:32:44,290 TRACE [R] ContextManager startingneed update: true
+14:32:44,329 DEBUG [C] qualifier: 201204302029
+14:34:00,718 DEBUG [C] qualifier: 19
+14:34:22,107 TRACE [M] Entered classPathChanged(); project: ISOSMainActivity
+14:34:22,107 TRACE [M] Entered checkProjectOptions(); project: ISOSMainActivity
+14:34:22,114 TRACE [M] Entered classPathChanged(); project: ISOSMainActivity
+14:34:22,114 TRACE [M] Entered checkProjectOptions(); project: ISOSMainActivity
+14:34:22,118 TRACE [M] Entered classPathChanged(); project: ISOSMainActivity
+14:34:22,118 TRACE [M] Entered checkProjectOptions(); project: ISOSMainActivity
+14:34:22,122 TRACE [M] Entered classPathChanged(); project: ISOSMainActivity
+14:34:22,122 TRACE [M] Entered checkProjectOptions(); project: ISOSMainActivity
+14:34:22,127 TRACE [M] Entered classPathChanged(); project: ISOSMainActivity
+14:34:22,127 TRACE [M] Entered checkProjectOptions(); project: ISOSMainActivity
+14:34:22,135 TRACE [M] Entered classPathChanged(); project: ISOSMainActivity
+14:34:22,135 TRACE [M] Entered checkProjectOptions(); project: ISOSMainActivity
+14:34:22,138 TRACE [M] Entered classPathChanged(); project: ISOSMainActivity
+14:34:22,138 TRACE [M] Entered checkProjectOptions(); project: ISOSMainActivity
+14:34:22,143 TRACE [M] Entered classPathChanged(); project: ISOSMainActivity
+14:34:22,143 TRACE [M] Entered checkProjectOptions(); project: ISOSMainActivity
+14:34:22,148 TRACE [M] Entered classPathChanged(); project: ISOSMainActivity
+14:34:22,148 TRACE [M] Entered checkProjectOptions(); project: ISOSMainActivity
+14:34:22,262 TRACE [M] Entered classPathChanged(); project: ISOSMainActivity
+14:34:22,262 TRACE [M] Entered checkProjectOptions(); project: ISOSMainActivity
+14:34:22,266 TRACE [M] Entered classPathChanged(); project: ISOSMainActivity
+14:34:22,266 TRACE [M] Entered checkProjectOptions(); project: ISOSMainActivity
+14:34:22,462 TRACE [M] Entered classPathChanged(); project: ISOSMainActivity
+14:34:22,462 TRACE [M] Entered checkProjectOptions(); project: ISOSMainActivity
+14:36:01,462 TRACE [M] Entered classPathChanged(); project: ISOSMainActivity
+14:36:01,462 TRACE [M] Entered checkProjectOptions(); project: ISOSMainActivity
+14:36:01,464 TRACE [M] Entered classPathChanged(); project: ISOSMainActivity
+14:36:01,464 TRACE [M] Entered checkProjectOptions(); project: ISOSMainActivity
+14:36:01,466 TRACE [M] Entered classPathChanged(); project: ISOSMainActivity
+14:36:01,466 TRACE [M] Entered checkProjectOptions(); project: ISOSMainActivity
+14:36:01,468 TRACE [M] Entered classPathChanged(); project: ISOSMainActivity
+14:36:01,468 TRACE [M] Entered checkProjectOptions(); project: ISOSMainActivity
+14:36:01,471 TRACE [M] Entered classPathChanged(); project: ISOSMainActivity
+14:36:01,471 TRACE [M] Entered checkProjectOptions(); project: ISOSMainActivity
+14:36:01,473 TRACE [M] Entered classPathChanged(); project: ISOSMainActivity
+14:36:01,473 TRACE [M] Entered checkProjectOptions(); project: ISOSMainActivity
+14:36:01,475 TRACE [M] Entered classPathChanged(); project: ISOSMainActivity
+14:36:01,475 TRACE [M] Entered checkProjectOptions(); project: ISOSMainActivity
+14:36:01,477 TRACE [M] Entered classPathChanged(); project: ISOSMainActivity
+14:36:01,477 TRACE [M] Entered checkProjectOptions(); project: ISOSMainActivity
+14:36:01,479 TRACE [M] Entered classPathChanged(); project: ISOSMainActivity
+14:36:01,479 TRACE [M] Entered checkProjectOptions(); project: ISOSMainActivity
+14:36:01,483 TRACE [M] Entered classPathChanged(); project: ISOSMainActivity
+14:36:01,483 TRACE [M] Entered checkProjectOptions(); project: ISOSMainActivity
+14:36:01,485 TRACE [M] Entered classPathChanged(); project: ISOSMainActivity
+14:36:01,485 TRACE [M] Entered checkProjectOptions(); project: ISOSMainActivity
+14:36:01,498 TRACE [M] Entered classPathChanged(); project: ISOSMainActivity
+14:36:01,498 TRACE [M] Entered checkProjectOptions(); project: ISOSMainActivity
+15:30:52,945 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+15:30:52,945 DEBUG [C] Property change listener is disabled.
+15:31:18,122 TRACE [R] ContextManager starting, bundle version: 1.5.2.201204302029
+15:31:18,479 DEBUG [C] Property change listener is enabled.
+15:31:18,613 DEBUG [U] Starting Search for CPs
+15:31:18,646 DEBUG [U] CP named BlackBerry Java SDK version 5.0.0 was found at /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack5.0.0_5.0.0.36/components
+15:31:18,680 DEBUG [U] CP named BlackBerry Java SDK version 6.0.0 was found at /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack6.0.0_6.0.0.43/components
+15:31:18,706 DEBUG [U] CP named BlackBerry Java SDK version 7.0.0 was found at /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.0.0_7.0.0.33/components
+15:31:18,714 DEBUG [U] CP named BlackBerry Java SDK version 7.1.0 was found at /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.1.0_7.1.0.10/components
+15:31:18,816 DEBUG [K] VM: *ADDED* [com.oracle.java.7u10.jdk$/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home]
+15:31:18,816 DEBUG [K] VM: *ADDED* [com.oracle.java.7u09.jdk$/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home]
+15:31:18,816 DEBUG [K] VM: *ADDED* [com.apple.javajdk16$/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home]
+15:31:18,816 DEBUG [K] VM: *ADDED* [BlackBerry JRE 7.1.0$/adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.1.0_7.1.0.10/components]
+15:31:18,864 DEBUG [K] VM: *ADDED* [BlackBerry JRE 7.0.0$/adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.0.0_7.0.0.33/components]
+15:31:18,880 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$/adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack6.0.0_6.0.0.43/components]
+15:31:18,890 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$/adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack5.0.0_5.0.0.36/components]
+15:31:18,921 TRACE [W] Attempting to create VM with name - BlackBerry JRE 7.1.0
+15:31:18,959 TRACE [W] Attempting to create VM with name - BlackBerry JRE 7.0.0
+15:31:18,986 TRACE [W] Attempting to create VM with name - BlackBerry JRE 6.0.0
+15:31:19,015 TRACE [W] Attempting to create VM with name - BlackBerry JRE 5.0.0
+15:31:19,246 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+15:31:19,256 TRACE [R] ContextManager startingneed update: true
+15:31:19,769 DEBUG [C] qualifier: 201204302029
+15:32:35,947 DEBUG [C] qualifier: 19
+10:35:30,564 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+10:35:30,564 DEBUG [C] Property change listener is disabled.
+19:52:09,072 TRACE [R] ContextManager starting, bundle version: 1.5.2.201204302029
+19:52:09,259 DEBUG [C] Property change listener is enabled.
+19:52:09,318 DEBUG [U] Starting Search for CPs
+19:52:09,326 DEBUG [U] CP named BlackBerry Java SDK version 5.0.0 was found at /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack5.0.0_5.0.0.36/components
+19:52:09,333 DEBUG [U] CP named BlackBerry Java SDK version 6.0.0 was found at /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack6.0.0_6.0.0.43/components
+19:52:09,348 DEBUG [U] CP named BlackBerry Java SDK version 7.0.0 was found at /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.0.0_7.0.0.33/components
+19:52:09,357 DEBUG [U] CP named BlackBerry Java SDK version 7.1.0 was found at /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.1.0_7.1.0.10/components
+19:52:09,392 DEBUG [K] VM: *ADDED* [com.oracle.java.7u10.jdk$/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home]
+19:52:09,392 DEBUG [K] VM: *ADDED* [com.oracle.java.7u09.jdk$/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home]
+19:52:09,392 DEBUG [K] VM: *ADDED* [com.apple.javajdk16$/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home]
+19:52:09,392 DEBUG [K] VM: *ADDED* [BlackBerry JRE 7.1.0$/adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.1.0_7.1.0.10/components]
+19:52:09,418 DEBUG [K] VM: *ADDED* [BlackBerry JRE 7.0.0$/adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.0.0_7.0.0.33/components]
+19:52:09,418 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$/adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack6.0.0_6.0.0.43/components]
+19:52:09,419 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$/adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack5.0.0_5.0.0.36/components]
+19:52:09,430 TRACE [W] Attempting to create VM with name - BlackBerry JRE 7.1.0
+19:52:09,445 TRACE [W] Attempting to create VM with name - BlackBerry JRE 7.0.0
+19:52:09,473 TRACE [W] Attempting to create VM with name - BlackBerry JRE 6.0.0
+19:52:09,480 TRACE [W] Attempting to create VM with name - BlackBerry JRE 5.0.0
+19:52:09,609 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+19:52:09,611 TRACE [R] ContextManager startingneed update: true
+19:52:10,067 DEBUG [C] qualifier: 201204302029
+19:53:26,790 DEBUG [C] qualifier: 19
+08:27:07,802 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+08:27:07,802 DEBUG [C] Property change listener is disabled.
+08:27:24,364 TRACE [R] ContextManager starting, bundle version: 1.5.2.201204302029
+08:27:24,524 DEBUG [C] Property change listener is enabled.
+08:27:24,604 DEBUG [U] Starting Search for CPs
+08:27:24,616 DEBUG [U] CP named BlackBerry Java SDK version 5.0.0 was found at /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack5.0.0_5.0.0.36/components
+08:27:24,622 DEBUG [U] CP named BlackBerry Java SDK version 6.0.0 was found at /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack6.0.0_6.0.0.43/components
+08:27:24,637 DEBUG [U] CP named BlackBerry Java SDK version 7.0.0 was found at /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.0.0_7.0.0.33/components
+08:27:24,646 DEBUG [U] CP named BlackBerry Java SDK version 7.1.0 was found at /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.1.0_7.1.0.10/components
+08:27:24,698 DEBUG [K] VM: *ADDED* [com.oracle.java.7u10.jdk$/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home]
+08:27:24,699 DEBUG [K] VM: *ADDED* [com.oracle.java.7u09.jdk$/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home]
+08:27:24,699 DEBUG [K] VM: *ADDED* [com.apple.javajdk16$/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home]
+08:27:24,699 DEBUG [K] VM: *ADDED* [BlackBerry JRE 7.1.0$/adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.1.0_7.1.0.10/components]
+08:27:24,729 DEBUG [K] VM: *ADDED* [BlackBerry JRE 7.0.0$/adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.0.0_7.0.0.33/components]
+08:27:24,729 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$/adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack6.0.0_6.0.0.43/components]
+08:27:24,730 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$/adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack5.0.0_5.0.0.36/components]
+08:27:24,742 TRACE [W] Attempting to create VM with name - BlackBerry JRE 7.1.0
+08:27:24,757 TRACE [W] Attempting to create VM with name - BlackBerry JRE 7.0.0
+08:27:24,773 TRACE [W] Attempting to create VM with name - BlackBerry JRE 6.0.0
+08:27:24,780 TRACE [W] Attempting to create VM with name - BlackBerry JRE 5.0.0
+08:27:24,797 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+08:27:24,798 TRACE [R] ContextManager startingneed update: true
+08:27:24,844 DEBUG [C] qualifier: 201204302029
+08:27:58,863 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+08:27:58,864 DEBUG [C] Property change listener is disabled.
+08:48:24,918 TRACE [R] ContextManager starting, bundle version: 1.5.2.201204302029
+08:48:25,446 DEBUG [C] Property change listener is enabled.
+08:48:25,654 DEBUG [U] Starting Search for CPs
+08:48:25,685 DEBUG [U] CP named BlackBerry Java SDK version 5.0.0 was found at /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack5.0.0_5.0.0.36/components
+08:48:25,698 DEBUG [U] CP named BlackBerry Java SDK version 6.0.0 was found at /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack6.0.0_6.0.0.43/components
+08:48:25,713 DEBUG [U] CP named BlackBerry Java SDK version 7.0.0 was found at /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.0.0_7.0.0.33/components
+08:48:25,722 DEBUG [U] CP named BlackBerry Java SDK version 7.1.0 was found at /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.1.0_7.1.0.10/components
+08:48:25,804 DEBUG [K] VM: *ADDED* [com.oracle.java.7u10.jdk$/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home]
+08:48:25,804 DEBUG [K] VM: *ADDED* [com.oracle.java.7u09.jdk$/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home]
+08:48:25,804 DEBUG [K] VM: *ADDED* [com.apple.javajdk16$/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home]
+08:48:25,804 DEBUG [K] VM: *ADDED* [BlackBerry JRE 7.1.0$/adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.1.0_7.1.0.10/components]
+08:48:25,816 DEBUG [K] VM: *ADDED* [BlackBerry JRE 7.0.0$/adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.0.0_7.0.0.33/components]
+08:48:25,816 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$/adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack6.0.0_6.0.0.43/components]
+08:48:25,816 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$/adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack5.0.0_5.0.0.36/components]
+08:48:25,839 TRACE [W] Attempting to create VM with name - BlackBerry JRE 7.1.0
+08:48:25,865 TRACE [W] Attempting to create VM with name - BlackBerry JRE 7.0.0
+08:48:25,882 TRACE [W] Attempting to create VM with name - BlackBerry JRE 6.0.0
+08:48:25,889 TRACE [W] Attempting to create VM with name - BlackBerry JRE 5.0.0
+08:48:26,088 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+08:48:26,109 TRACE [R] ContextManager startingneed update: true
+08:48:26,654 DEBUG [C] qualifier: 201204302029
+08:49:43,332 DEBUG [C] qualifier: 19
+09:20:48,993 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+09:20:48,994 DEBUG [C] Property change listener is disabled.
+09:21:06,710 TRACE [R] ContextManager starting, bundle version: 1.5.2.201204302029
+09:21:06,884 DEBUG [C] Property change listener is enabled.
+09:21:06,962 DEBUG [U] Starting Search for CPs
+09:21:06,974 DEBUG [U] CP named BlackBerry Java SDK version 5.0.0 was found at /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack5.0.0_5.0.0.36/components
+09:21:06,980 DEBUG [U] CP named BlackBerry Java SDK version 6.0.0 was found at /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack6.0.0_6.0.0.43/components
+09:21:06,996 DEBUG [U] CP named BlackBerry Java SDK version 7.0.0 was found at /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.0.0_7.0.0.33/components
+09:21:07,004 DEBUG [U] CP named BlackBerry Java SDK version 7.1.0 was found at /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.1.0_7.1.0.10/components
+09:21:07,043 DEBUG [K] VM: *ADDED* [BlackBerry JRE 7.1.0$/adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.1.0_7.1.0.10/components]
+09:21:07,047 DEBUG [K] VM: *ADDED* [BlackBerry JRE 7.0.0$/adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.0.0_7.0.0.33/components]
+09:21:07,047 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$/adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack6.0.0_6.0.0.43/components]
+09:21:07,047 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$/adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack5.0.0_5.0.0.36/components]
+09:21:07,056 DEBUG [K] VM: *ADDED* [com.oracle.java.7u10.jdk$/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home]
+09:21:07,056 DEBUG [K] VM: *ADDED* [com.oracle.java.7u09.jdk$/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home]
+09:21:07,056 DEBUG [K] VM: *ADDED* [com.apple.javajdk16$/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home]
+09:21:07,066 TRACE [W] Attempting to create VM with name - BlackBerry JRE 7.1.0
+09:21:07,081 TRACE [W] Attempting to create VM with name - BlackBerry JRE 7.0.0
+09:21:07,098 TRACE [W] Attempting to create VM with name - BlackBerry JRE 6.0.0
+09:21:07,105 TRACE [W] Attempting to create VM with name - BlackBerry JRE 5.0.0
+09:21:07,158 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+09:21:07,169 TRACE [R] ContextManager startingneed update: true
+09:21:07,212 DEBUG [C] qualifier: 201204302029
+09:21:15,073 DEBUG [C] qualifier: 19
+14:27:02,091 DEBUG [B] Instance [1029139207] of [class net.rim.ejde.internal.I.K.A.E] created.
+14:27:02,095 DEBUG [G] Instance [419574494] of [class net.rim.ejde.internal.I.K.A.G] created.
+14:27:02,096 DEBUG [H] Instance [419574494] of [class net.rim.ejde.internal.I.K.A.G] created.
+14:27:06,309 DEBUG [G] JRE selection is changed to BlackBerry JRE 7.1.0
+14:27:06,337 DEBUG [G] JRE selection is changed to BlackBerry JRE 7.1.0
+14:27:19,036 DEBUG [G] JRE selection is changed to BlackBerry JRE 5.0.0
+14:27:19,060 DEBUG [G] JRE selection is changed to BlackBerry JRE 5.0.0
+14:27:27,041 DEBUG [G] JRE selection is changed to BlackBerry JRE 5.0.0
+14:27:56,200 DEBUG [G] JRE selection is changed to BlackBerry JRE 6.0.0
+14:27:56,222 DEBUG [G] JRE selection is changed to BlackBerry JRE 6.0.0
+14:28:44,730 DEBUG [G] JRE selection is changed to com.oracle.java.7u10.jdk
+14:28:54,041 DEBUG [G] JRE selection is changed to BlackBerry JRE 6.0.0
+14:28:57,062 DEBUG [G] JRE selection is changed to BlackBerry JRE 7.1.0
+14:28:57,078 DEBUG [G] JRE selection is changed to BlackBerry JRE 7.1.0
+14:29:41,565 DEBUG [G] Instance [1347164994] of [class net.rim.ejde.internal.I.K.B] created.
+14:29:57,555 TRACE [R] loading /Users/cakers/Sites/node-server/Blackberry/ISOS_Blackberry_POC/BlackBerry_App_Descriptor.xml
+14:29:57,884 TRACE [R] finished loading /Users/cakers/Sites/node-server/Blackberry/ISOS_Blackberry_POC/BlackBerry_App_Descriptor.xml
+14:29:57,984 TRACE [e] ****** Get resource for ISOS_Blackberry_POC
+14:29:58,016 TRACE [e] ****** Get resource for ISOS_Blackberry_POC
+14:29:58,022 DEBUG [C] Validating project ISOS_Blackberry_POC
+14:29:58,034 TRACE [e] ****** Get resource for ISOS_Blackberry_POC
+14:29:59,083 DEBUG [H] Instance [419574494] of [class net.rim.ejde.internal.I.K.A.G] finalized.
+14:30:17,663 TRACE [R] setBBProperties(); ISOS_Blackberry_POC; false
+14:30:17,664 TRACE [R] setBBProperties(); ISOS_Blackberry_POC; true
+14:30:17,664 TRACE [R] Writing /Users/cakers/Sites/node-server/Blackberry/ISOS_Blackberry_POC/BlackBerry_App_Descriptor.xml
+14:30:17,682 TRACE [R] Finish writing /Users/cakers/Sites/node-server/Blackberry/ISOS_Blackberry_POC/BlackBerry_App_Descriptor.xml
+14:30:17,684 TRACE [R] loading /Users/cakers/Sites/node-server/Blackberry/ISOS_Blackberry_POC/BlackBerry_App_Descriptor.xml
+14:30:17,692 TRACE [R] finished loading /Users/cakers/Sites/node-server/Blackberry/ISOS_Blackberry_POC/BlackBerry_App_Descriptor.xml
+14:30:17,717 TRACE [e] ****** Get resource for ISOS_Blackberry_POC
+14:30:17,720 DEBUG [C] Validating project ISOS_Blackberry_POC
+14:30:17,728 TRACE [e] ****** Get resource for ISOS_Blackberry_POC
+14:30:17,862 TRACE [A] Entering PreprocessingBuilder build();kind=6
+14:30:17,903 ERROR [A] Preprocessing hook was not installed.
+14:30:17,903 TRACE [C] need_clean_workspace was changed from "false" to "true"
+14:30:17,904 ERROR [A] Preprocessing hook was not installed.
+14:30:17,904 ERROR [A] Preprocessing hook was not installed.
+14:30:17,904 ERROR [A] Preprocessing hook was not installed.
+14:30:17,905 ERROR [A] Preprocessing hook was not installed.
+14:30:17,905 ERROR [A] Preprocessing hook was not installed.
+14:30:17,905 ERROR [A] Preprocessing hook was not installed.
+14:30:17,905 ERROR [A] Preprocessing hook was not installed.
+14:30:17,905 ERROR [A] Preprocessing hook was not installed.
+14:30:17,905 ERROR [A] Preprocessing hook was not installed.
+14:30:17,905 ERROR [A] Preprocessing hook was not installed.
+14:30:17,905 ERROR [A] Preprocessing hook was not installed.
+14:30:17,906 ERROR [A] Preprocessing hook was not installed.
+14:30:17,906 ERROR [A] Preprocessing hook was not installed.
+14:30:17,906 ERROR [A] Preprocessing hook was not installed.
+14:30:17,906 ERROR [A] Preprocessing hook was not installed.
+14:30:17,907 ERROR [A] Preprocessing hook was not installed.
+14:30:17,907 ERROR [A] Preprocessing hook was not installed.
+14:30:17,907 ERROR [A] Preprocessing hook was not installed.
+14:30:17,907 ERROR [A] Preprocessing hook was not installed.
+14:30:17,907 ERROR [A] Preprocessing hook was not installed.
+14:30:17,907 ERROR [A] Preprocessing hook was not installed.
+14:30:17,908 ERROR [A] Preprocessing hook was not installed.
+14:30:17,908 ERROR [A] Preprocessing hook was not installed.
+14:30:17,908 ERROR [A] Preprocessing hook was not installed.
+14:30:17,908 ERROR [A] Preprocessing hook was not installed.
+14:30:17,908 ERROR [A] Preprocessing hook was not installed.
+14:30:17,908 ERROR [A] Preprocessing hook was not installed.
+14:30:17,908 ERROR [A] Preprocessing hook was not installed.
+14:30:17,909 ERROR [A] Preprocessing hook was not installed.
+14:30:17,909 ERROR [A] Preprocessing hook was not installed.
+14:30:17,909 ERROR [A] Preprocessing hook was not installed.
+14:30:17,909 ERROR [A] Preprocessing hook was not installed.
+14:30:17,909 ERROR [A] Preprocessing hook was not installed.
+14:30:17,910 ERROR [A] Preprocessing hook was not installed.
+14:30:17,910 ERROR [A] Preprocessing hook was not installed.
+14:30:17,910 ERROR [A] Preprocessing hook was not installed.
+14:30:17,910 ERROR [A] Preprocessing hook was not installed.
+14:30:17,925 TRACE [A] Leaving PreprocessingBuilder build()
+14:30:17,926 TRACE [B] Entering ResourcesBuilder build();kind=6
+14:30:17,935 TRACE [B] Leaving ResourcesBuilder build()
+14:30:18,385 TRACE [A] Project ISOS_Blackberry_POC is marked as need RAPC.
+14:30:18,637 DEBUG [R] RIA Initialization is started for /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack6.0.0_6.0.0.43/components.....
+14:30:18,921 TRACE [B] Refreshing the resource section for ISOS_Blackberry_POC
+14:30:18,921 TRACE [e] ****** Get resource for ISOS_Blackberry_POC
+14:30:19,383 TRACE [e] ****** Get resource for ISOS_Blackberry_POC
+14:30:19,386 DEBUG [C] Validating project ISOS_Blackberry_POC
+14:30:19,400 TRACE [e] ****** Get resource for ISOS_Blackberry_POC
+14:30:19,454 INFO  [F] Preprocess hook setting dialog is open
+14:30:24,438 INFO  [F] Preprocess hook setting dialog is closed
+14:32:04,938 DEBUG [R] RIA Initialization finished in : 0 ms
+14:32:04,986 DEBUG [W] SigningKey cache is populated for vm: BlackBerry JRE 6.0.0
+14:32:09,694 TRACE [A] Entering PreprocessingBuilder build();kind=9
+14:32:09,710 TRACE [A] Leaving PreprocessingBuilder build()
+14:32:09,712 TRACE [B] Entering ResourcesBuilder build();kind=9
+14:32:09,715 TRACE [B] Leaving ResourcesBuilder build()
+16:29:44,704 DEBUG [B] Instance [1793810272] of [class net.rim.ejde.internal.I.K.A.D] created.
+16:29:44,705 DEBUG [G] Instance [46321271] of [class net.rim.ejde.internal.I.K.A.G] created.
+16:29:44,705 DEBUG [H] Instance [46321271] of [class net.rim.ejde.internal.I.K.A.G] created.
+16:29:44,763 DEBUG [R] RIA Initialization is started for /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.1.0_7.1.0.10/components.....
+17:02:08,948 TRACE [R] ContextManager starting, bundle version: 1.5.2.201204302029
+17:02:08,966 DEBUG [C] Property change listener is enabled.
+17:02:08,984 DEBUG [U] Starting Search for CPs
+17:02:09,067 DEBUG [U] CP named BlackBerry Java SDK version 5.0.0 was found at /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack5.0.0_5.0.0.36/components
+17:02:09,173 DEBUG [U] CP named BlackBerry Java SDK version 6.0.0 was found at /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack6.0.0_6.0.0.43/components
+17:02:09,311 DEBUG [U] CP named BlackBerry Java SDK version 7.0.0 was found at /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.0.0_7.0.0.33/components
+17:02:09,420 DEBUG [U] CP named BlackBerry Java SDK version 7.1.0 was found at /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.1.0_7.1.0.10/components
+17:02:09,643 DEBUG [K] VM: *ADDED* [BlackBerry JRE 7.1.0$/adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.1.0_7.1.0.10/components]
+17:02:09,736 DEBUG [K] VM: *ADDED* [BlackBerry JRE 7.0.0$/adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.0.0_7.0.0.33/components]
+17:02:09,784 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$/adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack6.0.0_6.0.0.43/components]
+17:02:09,840 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$/adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack5.0.0_5.0.0.36/components]
+17:02:09,876 DEBUG [K] VM: *ADDED* [com.oracle.java.7u10.jdk$/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home]
+17:02:09,876 DEBUG [K] VM: *ADDED* [com.oracle.java.7u09.jdk$/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home]
+17:02:09,876 DEBUG [K] VM: *ADDED* [com.apple.javajdk16$/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home]
+17:02:09,904 TRACE [W] Attempting to create VM with name - BlackBerry JRE 7.1.0
+17:02:09,941 TRACE [W] Attempting to create VM with name - BlackBerry JRE 7.0.0
+17:02:09,980 TRACE [W] Attempting to create VM with name - BlackBerry JRE 6.0.0
+17:02:10,031 TRACE [W] Attempting to create VM with name - BlackBerry JRE 5.0.0
+17:02:10,066 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+17:02:10,066 TRACE [R] ContextManager startingneed update: true
+17:02:10,216 DEBUG [C] qualifier: 201204302029
+17:03:30,671 DEBUG [C] qualifier: 19
+11:51:05,939 DEBUG [B] Instance [160979031] of [class net.rim.ejde.internal.I.K.A.E] created.
+11:51:05,941 DEBUG [G] Instance [1669469141] of [class net.rim.ejde.internal.I.K.A.G] created.
+11:51:05,941 DEBUG [H] Instance [1669469141] of [class net.rim.ejde.internal.I.K.A.G] created.
+11:51:09,986 DEBUG [G] JRE selection is changed to com.oracle.java.7u10.jdk
+11:51:14,859 DEBUG [G] JRE selection is changed to BlackBerry JRE 7.1.0
+11:53:23,014 DEBUG [H] Instance [1669469141] of [class net.rim.ejde.internal.I.K.A.G] finalized.
+11:53:23,490 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+11:53:23,490 DEBUG [C] Property change listener is disabled.
+12:08:22,847 TRACE [R] ContextManager starting, bundle version: 1.5.2.201204302029
+12:08:23,039 DEBUG [C] Property change listener is enabled.
+12:08:23,128 DEBUG [U] Starting Search for CPs
+12:08:23,141 DEBUG [U] CP named BlackBerry Java SDK version 5.0.0 was found at /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack5.0.0_5.0.0.36/components
+12:08:23,157 DEBUG [U] CP named BlackBerry Java SDK version 6.0.0 was found at /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack6.0.0_6.0.0.43/components
+12:08:23,173 DEBUG [U] CP named BlackBerry Java SDK version 7.0.0 was found at /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.0.0_7.0.0.33/components
+12:08:23,182 DEBUG [U] CP named BlackBerry Java SDK version 7.1.0 was found at /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.1.0_7.1.0.10/components
+12:08:23,263 DEBUG [K] VM: *ADDED* [com.oracle.java.7u10.jdk$/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home]
+12:08:23,263 DEBUG [K] VM: *ADDED* [com.oracle.java.7u09.jdk$/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home]
+12:08:23,263 DEBUG [K] VM: *ADDED* [com.apple.javajdk16$/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home]
+12:08:23,263 DEBUG [K] VM: *ADDED* [BlackBerry JRE 7.1.0$/adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.1.0_7.1.0.10/components]
+12:08:23,275 DEBUG [K] VM: *ADDED* [BlackBerry JRE 7.0.0$/adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.0.0_7.0.0.33/components]
+12:08:23,276 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$/adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack6.0.0_6.0.0.43/components]
+12:08:23,276 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$/adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack5.0.0_5.0.0.36/components]
+12:08:23,288 TRACE [W] Attempting to create VM with name - BlackBerry JRE 7.1.0
+12:08:23,303 TRACE [W] Attempting to create VM with name - BlackBerry JRE 7.0.0
+12:08:23,319 TRACE [W] Attempting to create VM with name - BlackBerry JRE 6.0.0
+12:08:23,360 TRACE [W] Attempting to create VM with name - BlackBerry JRE 5.0.0
+12:08:23,398 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+12:08:23,399 TRACE [R] ContextManager startingneed update: true
+12:08:23,467 DEBUG [C] qualifier: 201204302029
+12:09:41,187 DEBUG [C] qualifier: 19

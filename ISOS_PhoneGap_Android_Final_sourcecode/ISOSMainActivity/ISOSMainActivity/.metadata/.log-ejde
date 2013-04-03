@@ -1,0 +1,52 @@
+14:32:39,134 TRACE [R] ContextManager starting, bundle version: 1.5.2.201204302029
+14:32:39,319 DEBUG [C] Property change listener is enabled.
+14:32:39,468 TRACE [C] LC_filtering_set was changed from "false" to "true"
+14:32:39,472 DEBUG [U] Starting Search for CPs
+14:32:39,517 DEBUG [U] CP named BlackBerry Java SDK version 5.0.0 was found at /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack5.0.0_5.0.0.36/components
+14:32:39,551 DEBUG [U] CP named BlackBerry Java SDK version 6.0.0 was found at /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack6.0.0_6.0.0.43/components
+14:32:39,577 DEBUG [U] CP named BlackBerry Java SDK version 7.0.0 was found at /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.0.0_7.0.0.33/components
+14:32:39,586 DEBUG [U] CP named BlackBerry Java SDK version 7.1.0 was found at /adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.1.0_7.1.0.10/components
+14:32:40,085 DEBUG [K] Event [org.eclipse.jdt.launching.PROPERTY_JAVADOC_LOCATION] for: *OLD* was[http://download.oracle.com/javase/7/docs/api/] *NEW* is [].
+14:32:40,097 DEBUG [K] VM: *SWITCH* from [NULL] to [com.oracle.java.7u10.jdk$Java SE 7 (MacOS X Default)]
+14:32:44,035 DEBUG [K] VM: *ADDED* [com.oracle.java.7u10.jdk$/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home]
+14:32:44,036 DEBUG [K] VM: *ADDED* [com.oracle.java.7u09.jdk$/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home]
+14:32:44,036 DEBUG [K] VM: *ADDED* [com.apple.javajdk16$/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home]
+14:32:44,082 TRACE [W] Attempting to create VM with name - BlackBerry JRE 7.1.0
+14:32:44,125 DEBUG [K] VM: *ADDED* [BlackBerry JRE 7.1.0$/adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.1.0_7.1.0.10/components]
+14:32:44,136 TRACE [C] openStartupOnEclpseFirstStart was changed from "false" to "false"
+14:32:44,152 TRACE [W] Attempting to create VM with name - BlackBerry JRE 7.0.0
+14:32:44,174 DEBUG [K] VM: *ADDED* [BlackBerry JRE 7.0.0$/adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack7.0.0_7.0.0.33/components]
+14:32:44,191 TRACE [W] Attempting to create VM with name - BlackBerry JRE 6.0.0
+14:32:44,219 DEBUG [K] VM: *ADDED* [BlackBerry JRE 6.0.0$/adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack6.0.0_6.0.0.43/components]
+14:32:44,232 TRACE [W] Attempting to create VM with name - BlackBerry JRE 5.0.0
+14:32:44,254 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$/adt-bundle-mac/eclipse/plugins/net.rim.ejde.componentpack5.0.0_5.0.0.36/components]
+14:32:44,268 DEBUG [K] Event [org.eclipse.jdt.launching.PROPERTY_JAVADOC_LOCATION] for: *OLD* was[http://download.oracle.com/javase/7/docs/api/] *NEW* is [].
+14:32:44,268 DEBUG [K] Event [org.eclipse.jdt.launching.PROPERTY_JAVADOC_LOCATION] for: *OLD* was[http://download.oracle.com/javase/6/docs/api/] *NEW* is [].
+14:32:44,271 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+14:32:44,290 TRACE [R] ContextManager startingneed update: true
+14:32:44,329 DEBUG [C] qualifier: 201204302029
+14:34:00,718 DEBUG [C] qualifier: 19
+14:34:22,107 TRACE [M] Entered classPathChanged(); project: ISOSMainActivity
+14:34:22,107 TRACE [M] Entered checkProjectOptions(); project: ISOSMainActivity
+14:34:22,114 TRACE [M] Entered classPathChanged(); project: ISOSMainActivity
+14:34:22,114 TRACE [M] Entered checkProjectOptions(); project: ISOSMainActivity
+14:34:22,118 TRACE [M] Entered classPathChanged(); project: ISOSMainActivity
+14:34:22,118 TRACE [M] Entered checkProjectOptions(); project: ISOSMainActivity
+14:34:22,122 TRACE [M] Entered classPathChanged(); project: ISOSMainActivity
+14:34:22,122 TRACE [M] Entered checkProjectOptions(); project: ISOSMainActivity
+14:34:22,127 TRACE [M] Entered classPathChanged(); project: ISOSMainActivity
+14:34:22,127 TRACE [M] Entered checkProjectOptions(); project: ISOSMainActivity
+14:34:22,135 TRACE [M] Entered classPathChanged(); project: ISOSMainActivity
+14:34:22,135 TRACE [M] Entered checkProjectOptions(); project: ISOSMainActivity
+14:34:22,138 TRACE [M] Entered classPathChanged(); project: ISOSMainActivity
+14:34:22,138 TRACE [M] Entered checkProjectOptions(); project: ISOSMainActivity
+14:34:22,143 TRACE [M] Entered classPathChanged(); project: ISOSMainActivity
+14:34:22,143 TRACE [M] Entered checkProjectOptions(); project: ISOSMainActivity
+14:34:22,148 TRACE [M] Entered classPathChanged(); project: ISOSMainActivity
+14:34:22,148 TRACE [M] Entered checkProjectOptions(); project: ISOSMainActivity
+14:34:22,262 TRACE [M] Entered classPathChanged(); project: ISOSMainActivity
+14:34:22,262 TRACE [M] Entered checkProjectOptions(); project: ISOSMainActivity
+14:34:22,266 TRACE [M] Entered classPathChanged(); project: ISOSMainActivity
+14:34:22,266 TRACE [M] Entered checkProjectOptions(); project: ISOSMainActivity
+14:34:22,462 TRACE [M] Entered classPathChanged(); project: ISOSMainActivity
+14:34:22,462 TRACE [M] Entered checkProjectOptions(); project: ISOSMainActivity

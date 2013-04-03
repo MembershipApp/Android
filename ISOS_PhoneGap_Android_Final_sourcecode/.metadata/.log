@@ -1,0 +1,650 @@
+!SESSION 2013-03-25 14:32:28.505 -----------------------------------------------
+eclipse.buildId=v21.0.0-519525
+java.version=1.7.0_10
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -keyring /Users/cakers/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.ide.eclipse.adt.package.product -keyring /Users/cakers/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-03-25 14:32:44.797
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-03-25 14:33:20.771
+!MESSAGE New Project Wizard failed
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:642)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:559)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$2.execute(NewProjectCreator.java:371)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:175)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:287)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:269)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:689)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:626)
+	... 6 more
+Root exception:
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:175)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:287)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:269)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:689)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:626)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:559)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$2.execute(NewProjectCreator.java:371)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: OK
+Contains: /Users/cakers/Sites/node-server/Android/ISOS_PhoneGap_Android_Final_sourcecode overlaps the workspace location: /Users/cakers/Sites/node-server/Android/ISOS_PhoneGap_Android_Final_sourcecode
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-03-25 14:33:36.122
+!MESSAGE New Project Wizard failed
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:642)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:559)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$2.execute(NewProjectCreator.java:371)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:175)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:287)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:269)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:689)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:626)
+	... 6 more
+Root exception:
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:175)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:287)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:269)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:689)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:626)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:559)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$2.execute(NewProjectCreator.java:371)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: OK
+Contains: /Users/cakers/Sites/node-server/Android/ISOS_PhoneGap_Android_Final_sourcecode overlaps the workspace location: /Users/cakers/Sites/node-server/Android/ISOS_PhoneGap_Android_Final_sourcecode
+
+!ENTRY org.eclipse.core.resources 4 4 2013-03-25 14:34:20.413
+!MESSAGE Exception occurred while saving project preferences: /ISOSMainActivity/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/Users/cakers/Sites/node-server/Android/ISOS_PhoneGap_Android_Final_sourcecode/ISOSMainActivity/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:441)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:350)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:268)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:790)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:626)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:559)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$2.execute(NewProjectCreator.java:371)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2013-03-25 14:34:20.413
+!MESSAGE A resource already exists on disk '/Users/cakers/Sites/node-server/Android/ISOS_PhoneGap_Android_Final_sourcecode/ISOSMainActivity/.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2013-03-25 14:34:20.414
+!MESSAGE Exception occurred while saving project preferences: /ISOSMainActivity/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/Users/cakers/Sites/node-server/Android/ISOS_PhoneGap_Android_Final_sourcecode/ISOSMainActivity/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:443)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:350)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:268)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:790)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:626)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:559)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$2.execute(NewProjectCreator.java:371)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2013-03-25 14:34:20.414
+!MESSAGE A resource already exists on disk '/Users/cakers/Sites/node-server/Android/ISOS_PhoneGap_Android_Final_sourcecode/ISOSMainActivity/.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2013-03-25 14:34:20.415
+!MESSAGE Exception occurred while saving project preferences: /ISOSMainActivity/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/Users/cakers/Sites/node-server/Android/ISOS_PhoneGap_Android_Final_sourcecode/ISOSMainActivity/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:445)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:350)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:268)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:790)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:626)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:559)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$2.execute(NewProjectCreator.java:371)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2013-03-25 14:34:20.415
+!MESSAGE A resource already exists on disk '/Users/cakers/Sites/node-server/Android/ISOS_PhoneGap_Android_Final_sourcecode/ISOSMainActivity/.settings'.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-03-25 14:34:22.650
+!MESSAGE 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 9 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at com.android.ide.eclipse.adt.internal.project.BaseProjectHelper.markProject(BaseProjectHelper.java:210)
+	at com.android.ide.eclipse.adt.internal.project.BaseClasspathContainerInitializer$1.run(BaseClasspathContainerInitializer.java:65)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2013-03-25 14:34:22.651
+!MESSAGE Marker id 9 not found.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-03-25 14:34:22.652
+!MESSAGE 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 10 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at com.android.ide.eclipse.adt.internal.project.BaseProjectHelper.markProject(BaseProjectHelper.java:210)
+	at com.android.ide.eclipse.adt.internal.project.BaseClasspathContainerInitializer$1.run(BaseClasspathContainerInitializer.java:65)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2013-03-25 14:34:22.652
+!MESSAGE Marker id 10 not found.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-03-25 14:34:22.681
+!MESSAGE 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 13 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at com.android.ide.eclipse.adt.internal.project.BaseProjectHelper.markProject(BaseProjectHelper.java:210)
+	at com.android.ide.eclipse.adt.internal.project.BaseClasspathContainerInitializer$1.run(BaseClasspathContainerInitializer.java:65)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2013-03-25 14:34:22.681
+!MESSAGE Marker id 13 not found.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-03-25 14:34:22.681
+!MESSAGE 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 12 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at com.android.ide.eclipse.adt.internal.project.BaseProjectHelper.markProject(BaseProjectHelper.java:210)
+	at com.android.ide.eclipse.adt.internal.project.BaseClasspathContainerInitializer$1.run(BaseClasspathContainerInitializer.java:65)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2013-03-25 14:34:22.681
+!MESSAGE Marker id 12 not found.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-03-25 14:34:22.682
+!MESSAGE 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 11 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at com.android.ide.eclipse.adt.internal.project.BaseProjectHelper.markProject(BaseProjectHelper.java:210)
+	at com.android.ide.eclipse.adt.internal.project.BaseClasspathContainerInitializer$1.run(BaseClasspathContainerInitializer.java:65)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2013-03-25 14:34:22.682
+!MESSAGE Marker id 11 not found.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-03-25 14:35:24.052
+!MESSAGE New Project Wizard failed
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:642)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:559)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$2.execute(NewProjectCreator.java:371)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:175)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:287)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:269)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:689)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:626)
+	... 6 more
+Root exception:
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:175)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:287)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:269)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:689)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:626)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:559)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$2.execute(NewProjectCreator.java:371)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: OK
+Contains: /Users/cakers/Sites/node-server/Android/ISOS_PhoneGap_Android_Final_sourcecode overlaps the workspace location: /Users/cakers/Sites/node-server/Android/ISOS_PhoneGap_Android_Final_sourcecode
+
+!ENTRY org.eclipse.core.resources 4 4 2013-03-25 14:36:00.617
+!MESSAGE Exception occurred while saving project preferences: /ISOSMainActivity/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/Users/cakers/Sites/node-server/Android/ISOS_PhoneGap_Android_Final_sourcecode/ISOSMainActivity/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:441)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:350)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:268)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:790)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:626)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:559)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$2.execute(NewProjectCreator.java:371)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2013-03-25 14:36:00.618
+!MESSAGE A resource already exists on disk '/Users/cakers/Sites/node-server/Android/ISOS_PhoneGap_Android_Final_sourcecode/ISOSMainActivity/.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2013-03-25 14:36:00.618
+!MESSAGE Exception occurred while saving project preferences: /ISOSMainActivity/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/Users/cakers/Sites/node-server/Android/ISOS_PhoneGap_Android_Final_sourcecode/ISOSMainActivity/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:443)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:350)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:268)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:790)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:626)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:559)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$2.execute(NewProjectCreator.java:371)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2013-03-25 14:36:00.618
+!MESSAGE A resource already exists on disk '/Users/cakers/Sites/node-server/Android/ISOS_PhoneGap_Android_Final_sourcecode/ISOSMainActivity/.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2013-03-25 14:36:00.711
+!MESSAGE Exception occurred while saving project preferences: /ISOSMainActivity/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/Users/cakers/Sites/node-server/Android/ISOS_PhoneGap_Android_Final_sourcecode/ISOSMainActivity/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:445)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:350)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:268)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:790)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:626)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:559)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$2.execute(NewProjectCreator.java:371)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2013-03-25 14:36:00.711
+!MESSAGE A resource already exists on disk '/Users/cakers/Sites/node-server/Android/ISOS_PhoneGap_Android_Final_sourcecode/ISOSMainActivity/.settings'.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-03-25 14:36:01.526
+!MESSAGE 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 55 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at com.android.ide.eclipse.adt.internal.project.BaseProjectHelper.markProject(BaseProjectHelper.java:210)
+	at com.android.ide.eclipse.adt.internal.project.BaseClasspathContainerInitializer$1.run(BaseClasspathContainerInitializer.java:65)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2013-03-25 14:36:01.526
+!MESSAGE Marker id 55 not found.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-03-25 14:36:01.526
+!MESSAGE 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 57 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at com.android.ide.eclipse.adt.internal.project.BaseProjectHelper.markProject(BaseProjectHelper.java:210)
+	at com.android.ide.eclipse.adt.internal.project.BaseClasspathContainerInitializer$1.run(BaseClasspathContainerInitializer.java:65)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2013-03-25 14:36:01.526
+!MESSAGE Marker id 57 not found.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-03-25 14:36:01.527
+!MESSAGE 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 56 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at com.android.ide.eclipse.adt.internal.project.BaseProjectHelper.markProject(BaseProjectHelper.java:210)
+	at com.android.ide.eclipse.adt.internal.project.BaseClasspathContainerInitializer$1.run(BaseClasspathContainerInitializer.java:65)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2013-03-25 14:36:01.527
+!MESSAGE Marker id 56 not found.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-03-25 14:36:01.527
+!MESSAGE 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 58 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at com.android.ide.eclipse.adt.internal.project.BaseProjectHelper.markProject(BaseProjectHelper.java:210)
+	at com.android.ide.eclipse.adt.internal.project.BaseClasspathContainerInitializer$1.run(BaseClasspathContainerInitializer.java:65)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2013-03-25 14:36:01.527
+!MESSAGE Marker id 58 not found.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-03-25 14:36:01.528
+!MESSAGE 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 59 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at com.android.ide.eclipse.adt.internal.project.BaseProjectHelper.markProject(BaseProjectHelper.java:210)
+	at com.android.ide.eclipse.adt.internal.project.BaseClasspathContainerInitializer$1.run(BaseClasspathContainerInitializer.java:65)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2013-03-25 14:36:01.528
+!MESSAGE Marker id 59 not found.
+!SESSION 2013-03-26 15:30:58.291 -----------------------------------------------
+eclipse.buildId=v21.0.0-519525
+java.version=1.7.0_10
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -keyring /Users/cakers/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.ide.eclipse.adt.package.product -keyring /Users/cakers/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-03-26 15:31:20.627
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2013-03-29 18:27:22.645 -----------------------------------------------
+eclipse.buildId=v21.0.0-519525
+java.version=1.7.0_10
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -keyring /Users/cakers/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.ide.eclipse.adt.package.product -keyring /Users/cakers/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-03-29 19:52:10.279
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2013-04-01 08:27:11.244 -----------------------------------------------
+eclipse.buildId=v21.0.0-519525
+java.version=1.7.0_10
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -keyring /Users/cakers/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.ide.eclipse.adt.package.product -keyring /Users/cakers/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-04-01 08:27:25.349
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.jobs 2 2 2013-04-01 08:27:59.986
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: net.rim.ejde.internal.util.C
+!SESSION 2013-04-01 08:48:14.497 -----------------------------------------------
+eclipse.buildId=v21.0.0-519525
+java.version=1.7.0_10
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -keyring /Users/cakers/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.ide.eclipse.adt.package.product -keyring /Users/cakers/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-04-01 08:48:27.645
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui.console 4 120 2013-04-01 09:20:49.106
+!MESSAGE Error logged from Console plug-in: 
+!STACK 0
+java.io.IOException: Document is closed
+	at org.eclipse.ui.internal.console.IOConsolePartitioner.streamAppended(IOConsolePartitioner.java:453)
+	at org.eclipse.ui.console.IOConsoleOutputStream.notifyParitioner(IOConsoleOutputStream.java:245)
+	at org.eclipse.ui.console.IOConsoleOutputStream.encodedWrite(IOConsoleOutputStream.java:240)
+	at org.eclipse.ui.console.IOConsoleOutputStream.write(IOConsoleOutputStream.java:225)
+	at org.eclipse.ui.console.MessageConsoleStream.print(MessageConsoleStream.java:56)
+	at com.android.ide.eclipse.ddms.DdmsPlugin.printToStream(DdmsPlugin.java:768)
+	at com.android.ide.eclipse.ddms.DdmsPlugin.access$1(DdmsPlugin.java:764)
+	at com.android.ide.eclipse.ddms.DdmsPlugin$2.printLog(DdmsPlugin.java:175)
+	at com.android.ddmlib.Log.println(Log.java:328)
+	at com.android.ddmlib.Log.e(Log.java:230)
+	at com.android.ddmuilib.logcat.LogCatReceiver$1.run(LogCatReceiver.java:119)
+	at java.lang.Thread.run(Thread.java:722)
+
+!ENTRY org.eclipse.ui.console 4 120 2013-04-01 09:20:49.106
+!MESSAGE Error logged from Console plug-in: 
+!STACK 0
+java.io.IOException: Output Stream is closed
+	at org.eclipse.ui.console.IOConsoleOutputStream.encodedWrite(IOConsoleOutputStream.java:230)
+	at org.eclipse.ui.console.IOConsoleOutputStream.write(IOConsoleOutputStream.java:225)
+	at org.eclipse.ui.console.MessageConsoleStream.print(MessageConsoleStream.java:56)
+	at com.android.ide.eclipse.ddms.DdmsPlugin.printToStream(DdmsPlugin.java:770)
+	at com.android.ide.eclipse.ddms.DdmsPlugin.access$1(DdmsPlugin.java:764)
+	at com.android.ide.eclipse.ddms.DdmsPlugin$2.printLog(DdmsPlugin.java:175)
+	at com.android.ddmlib.Log.println(Log.java:328)
+	at com.android.ddmlib.Log.e(Log.java:230)
+	at com.android.ddmuilib.logcat.LogCatReceiver$1.run(LogCatReceiver.java:119)
+	at java.lang.Thread.run(Thread.java:722)
+
+!ENTRY org.eclipse.ui.console 4 120 2013-04-01 09:20:49.106
+!MESSAGE Error logged from Console plug-in: 
+!STACK 0
+java.io.IOException: Output Stream is closed
+	at org.eclipse.ui.console.IOConsoleOutputStream.encodedWrite(IOConsoleOutputStream.java:230)
+	at org.eclipse.ui.console.IOConsoleOutputStream.write(IOConsoleOutputStream.java:225)
+	at org.eclipse.ui.console.MessageConsoleStream.print(MessageConsoleStream.java:56)
+	at org.eclipse.ui.console.MessageConsoleStream.println(MessageConsoleStream.java:81)
+	at com.android.ide.eclipse.ddms.DdmsPlugin.printToStream(DdmsPlugin.java:772)
+	at com.android.ide.eclipse.ddms.DdmsPlugin.access$1(DdmsPlugin.java:764)
+	at com.android.ide.eclipse.ddms.DdmsPlugin$2.printLog(DdmsPlugin.java:175)
+	at com.android.ddmlib.Log.println(Log.java:328)
+	at com.android.ddmlib.Log.e(Log.java:230)
+	at com.android.ddmuilib.logcat.LogCatReceiver$1.run(LogCatReceiver.java:119)
+	at java.lang.Thread.run(Thread.java:722)
+!SESSION 2013-04-01 09:20:53.680 -----------------------------------------------
+eclipse.buildId=v21.0.0-519525
+java.version=1.7.0_10
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -keyring /Users/cakers/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.ide.eclipse.adt.package.product -keyring /Users/cakers/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-04-01 09:21:07.761
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2013-04-01 17:02:00.120 -----------------------------------------------
+eclipse.buildId=v21.0.0-519525
+java.version=1.7.0_10
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -keyring /Users/cakers/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.ide.eclipse.adt.package.product -keyring /Users/cakers/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.resources 2 10035 2013-04-01 17:02:05.396
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.net 1 0 2013-04-01 17:02:11.171
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2013-04-02 11:49:36.137
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at https://dl-ssl.google.com/android/eclipse/site.xml.
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadActualSiteFile(UpdateSite.java:233)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.load(UpdateSite.java:144)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.initializeRepository(UpdateSiteMetadataRepositoryFactory.java:99)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.load(UpdateSiteMetadataRepositoryFactory.java:59)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:758)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:651)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:312)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:350)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:927)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:884)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:102)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:254)
+	at org.apache.commons.httpclient.HttpParser.readRawLine(HttpParser.java:78)
+	at org.apache.commons.httpclient.HttpParser.readLine(HttpParser.java:106)
+	at org.apache.commons.httpclient.HttpConnection.readLine(HttpConnection.java:1116)
+	at org.apache.commons.httpclient.MultiThreadedHttpConnectionManager$HttpConnectionAdapter.readLine(MultiThreadedHttpConnectionManager.java:1413)
+	at org.apache.commons.httpclient.HttpMethodBase.readStatusLine(HttpMethodBase.java:1973)
+	at org.apache.commons.httpclient.HttpMethodBase.readResponse(HttpMethodBase.java:1735)
+	at org.apache.commons.httpclient.HttpMethodBase.execute(HttpMethodBase.java:1098)
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientRetrieveFileTransfer$GzipGetMethod.execute(HttpClientRetrieveFileTransfer.java:120)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:398)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:346)
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1129)
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientRetrieveFileTransfer.openStreams(HttpClientRetrieveFileTransfer.java:699)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:879)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:570)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.MultiProtocolRetrieveAdapter.sendRetrieveRequest(MultiProtocolRetrieveAdapter.java:106)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:422)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:355)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadActualSiteFile(UpdateSite.java:202)
+	... 13 more
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2013-04-02 11:49:36.140
+!MESSAGE Unable to read repository at https://dl-ssl.google.com/android/eclipse/site.xml.
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:312)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:350)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:927)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:884)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:102)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:254)
+	at org.apache.commons.httpclient.HttpParser.readRawLine(HttpParser.java:78)
+	at org.apache.commons.httpclient.HttpParser.readLine(HttpParser.java:106)
+	at org.apache.commons.httpclient.HttpConnection.readLine(HttpConnection.java:1116)
+	at org.apache.commons.httpclient.MultiThreadedHttpConnectionManager$HttpConnectionAdapter.readLine(MultiThreadedHttpConnectionManager.java:1413)
+	at org.apache.commons.httpclient.HttpMethodBase.readStatusLine(HttpMethodBase.java:1973)
+	at org.apache.commons.httpclient.HttpMethodBase.readResponse(HttpMethodBase.java:1735)
+	at org.apache.commons.httpclient.HttpMethodBase.execute(HttpMethodBase.java:1098)
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientRetrieveFileTransfer$GzipGetMethod.execute(HttpClientRetrieveFileTransfer.java:120)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:398)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:346)
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1129)
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientRetrieveFileTransfer.openStreams(HttpClientRetrieveFileTransfer.java:699)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:879)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:570)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.MultiProtocolRetrieveAdapter.sendRetrieveRequest(MultiProtocolRetrieveAdapter.java:106)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:422)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:355)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadActualSiteFile(UpdateSite.java:202)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.load(UpdateSite.java:144)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.initializeRepository(UpdateSiteMetadataRepositoryFactory.java:99)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.load(UpdateSiteMetadataRepositoryFactory.java:59)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:758)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:651)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2013-04-02 11:49:41.432
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10050 2013-04-02 11:49:41.432
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-04-02 11:49:41.432
+!MESSAGE "BlackBerry Java Plug-in (core)" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-04-02 11:49:41.432
+!MESSAGE "BlackBerry Java SDK" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-04-02 11:49:41.432
+!MESSAGE "BlackBerry Java SDK" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-04-02 11:49:41.432
+!MESSAGE "BlackBerry Java SDK" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-04-02 11:49:41.432
+!MESSAGE "BlackBerry Java SDK" will be ignored because it is already installed.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2013-04-02 11:49:41.434
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10050 2013-04-02 11:49:41.434
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-04-02 11:49:41.434
+!MESSAGE "BlackBerry Java Plug-in (core)" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-04-02 11:49:41.434
+!MESSAGE "BlackBerry Java SDK" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-04-02 11:49:41.434
+!MESSAGE "BlackBerry Java SDK" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-04-02 11:49:41.434
+!MESSAGE "BlackBerry Java SDK" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-04-02 11:49:41.434
+!MESSAGE "BlackBerry Java SDK" will be ignored because it is already installed.
+!SESSION 2013-04-02 12:07:53.390 -----------------------------------------------
+eclipse.buildId=v21.0.0-519525
+java.version=1.7.0_10
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -keyring /Users/cakers/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.ide.eclipse.adt.package.product -keyring /Users/cakers/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-04-02 12:08:24.002
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences

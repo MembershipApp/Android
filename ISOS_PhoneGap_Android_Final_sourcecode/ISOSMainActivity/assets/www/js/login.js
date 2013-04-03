@@ -1,0 +1,186 @@
+window.loginUser;
+var setToken; //variable for token value
+var setGeoLat; //var for lat and long
+var setGeoLong;
+var setCheckinToken; //var for checkin token
+var flag=true; //for dashboard page
+window.manualCheckinFlag=false;
+
+
+
+
+//Click On Login Button
+function loginBtnEvent()
+{
+    var membership_id = document.getElementById("membership_id").value;
+    var remembermeflag=document.getElementById("remembermecheckbox").checked;
+    //fetch token value
+    setToken=token;
+    
+    if(setToken == null) {
+    	alert("Push Notification token is NULL");
+    	return;
+    }
+    loginUser=membership_id;
+    if(loginUser){
+        //Call Web Service
+        var options = {UserName:membership_id,DeviceToken:setToken,Method:"login"};
+        callLoginWebServiceToNative(options);
+        //invokeWebService(options);
+        //fetch remember me
+        rememberMECheckbox(remembermeflag,membership_id);
+    }else{
+        customAlert("Please Enter Username")
+    }
+}
+
+//Sucess Login
+function loginSucessCallBack(sucess){
+	
+	
+	var checkinLat=localStorage.getItem('currentLat');
+        var checkinLong=localStorage.getItem('currentLong');
+	if(sucess == 0){
+		
+		//for back buttton 
+		isLogin = 1;
+	
+		//Google Analytics
+        googleAnalytics("trackEvent","event");
+        googleAnalytics("trackPage","/Login Page");
+      	
+		 var membership_id = document.getElementById("membership_id").value;
+        
+        //daskboard page
+        storeDataToLocalStorage(membership_id,token);
+                        
+        //onCheckInClick();
+        var checkinUser=localStorage.getItem('currentUserName');
+        var checkinToken=localStorage.getItem('fetchCheckinToken');
+        
+        //dashboard flag
+        flag=true;
+        
+        //called checkin
+        if(checkinLat && checkinLong) checkinService(checkinUser,checkinToken,checkinLat,checkinLong);
+		
+		dashboardPage();
+	}else if (sucess == 1){
+		//Remove Loader 
+		//removeLoader();
+		
+		customAlert("Invalid Username")
+	}
+}
+
+//Call for Checkin service
+function checkinService(checkinUser,checkinToken,checkinLat,checkinLong)
+{
+	var options = {UserName:checkinUser,DeviceToken:checkinToken,Latitude:checkinLat,Longitude:checkinLong,Method:"checkin",Flag:manualCheckinFlag};
+    callLoginWebServiceToNative(options);
+}
+
+// Sucess Call Back Checkin 
+function checkinSucessCallBack(callbackMessage)
+{
+	if(flag==true){
+		//Remove Loader after sucesssfull login
+		//removeLoader();
+
+      //Called Dashboard Page
+      dashboardPage();
+    }
+    if(manualCheckinFlag==true){
+    		//Remove Loader after sucesssfull login
+			//removeLoader();
+		
+            $("#btnCheckIn").css("display","none");
+            var temp =  _.template(checkinSuccessfulTmpl);
+            $("#wrapper").append(temp);
+            
+        	manualCheckinFlag=false;
+    }
+}
+
+//Sucess Call Back for Geofencing 
+function geofencingSucessCallBack()
+{
+	
+	//region changed current location
+    getGeolcation();
+    
+    //localstorage
+    var checkinUser=localStorage.getItem('currentUserName');
+    var checkinToken=localStorage.getItem('fetchCheckinToken');
+    var checkinLat=localStorage.getItem('currentLat');
+    var checkinLong=localStorage.getItem('currentLong');
+    
+    //dashboard flag
+    flag=false;
+    
+    //called checkin
+    checkinService(checkinUser,checkinToken,checkinLat,checkinLong);
+    
+}
+
+
+//method for daskboard page
+function dashboardPage(){
+    var dashBoard = new dashBoardView();
+}
+
+//method for remember me 
+function rememberMECheckbox(memberIDFlag,activeUserName)
+{
+    if(memberIDFlag)
+    {
+        localStorage.setItem('userName', activeUserName); //defining a local storage for username
+        localStorage.setItem('rememberMe',memberIDFlag);//defining a local storage for remember me flag
+    }else
+    {
+        localStorage.removeItem('userName'); //remove value from local storage if checkbox is not select 
+        localStorage.removeItem('rememberMe'); //remove value local storage  if checkbox is not select 
+    }
+}
+
+function getRememberValue()
+{
+    var getRememberMeFlagValue=localStorage.getItem('rememberMe');
+    if(getRememberMeFlagValue)
+    {
+        var getUserName=localStorage.getItem('userName');
+        document.getElementById("membership_id").value=getUserName;
+        document.getElementById("remembermecheckbox").checked=getRememberMeFlagValue;
+    }
+}
+
+//store username,token
+function storeDataToLocalStorage(currentLoginUser,fetchToken)
+{
+    localStorage.setItem('currentUserName', currentLoginUser); //defining a local storage for login User
+    localStorage.setItem('fetchCheckinToken',fetchToken);//defining a local storage for remember me flag
+}
+
+function notificationCallback(jsonstr){
+	//alert(jsonstr);
+	localStorage.setItem("notificationAlert",jsonstr);
+}
+
+//Google Analytics Call
+function googleAnalytics(track,data)
+{
+	if(track=="trackEvent")
+	{	
+		//Google Analytics Track Event
+        var options = {Category:"Android category",Action:"login action",Label:"Android label",Value:666};
+        getGoogleAnalyticsTrackEvent(options);
+        
+	}else if(track=="trackPage")
+	{
+		//Google Analytics Track Page View
+        getGoogleAnalyticsTrackPageView("/Login Page");
+		
+	}
+}
+
+

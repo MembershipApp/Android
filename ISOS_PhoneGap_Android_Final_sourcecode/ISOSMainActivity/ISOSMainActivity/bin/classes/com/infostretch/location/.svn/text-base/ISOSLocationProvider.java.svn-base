@@ -1,0 +1,87 @@
+package com.infostretch.location;
+
+import android.content.Context;
+import android.location.Location;
+import android.location.LocationListener;
+import android.location.LocationManager;
+import android.os.Bundle;
+
+import com.infostretch.isos.ISOSPlugin;
+import com.infostretch.network.ConnectionChecker;
+import com.infostretch.util.Globals;
+
+public class ISOSLocationProvider implements LocationListener {
+
+	private LocationManager mLocationManager;
+	private ServiceInterface mServiceInterface;
+
+	public ISOSLocationProvider(ServiceInterface inter) {
+		mServiceInterface = inter;
+	}
+
+	public void initTime(final Context context) {
+		try {
+			mLocationManager = (LocationManager) context
+					.getSystemService(Context.LOCATION_SERVICE);
+			ConnectionChecker.selfLearnig(context);
+			mLocationManager.removeUpdates(this);
+			mLocationManager.requestLocationUpdates(selectProvider(context), 0,
+					0, this);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+
+	@Override
+	public void onLocationChanged(Location location) {
+		if (location != null) {
+			CurrentLocationStore.getInstance().setLatitude(
+					String.valueOf(location.getLatitude()));
+			CurrentLocationStore.getInstance().setLongitude(
+					String.valueOf(location.getLongitude()));
+			if (mLocationManager != null)
+				mLocationManager.removeUpdates(this);
+			if (mLocationManager != null)
+				mServiceInterface.onComplete(location);
+			// test for geofencing for crossed fencing
+			ISOSPlugin.CallBackGeoFencing();
+
+		}
+
+	}
+
+	@Override
+	public void onProviderDisabled(String provider) {
+
+	}
+
+	@Override
+	public void onProviderEnabled(String provider) {
+
+	}
+
+	@Override
+	public void onStatusChanged(String provider, int status, Bundle extras) {
+
+	}
+
+	public String selectProvider(Context context) {
+		String provider = null;
+		boolean GPSprovider = mLocationManager
+				.isProviderEnabled(LocationManager.GPS_PROVIDER);
+		boolean NetWorkprovider = mLocationManager
+				.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
+		if (NetWorkprovider) {
+			provider = LocationManager.NETWORK_PROVIDER;
+		} else if (GPSprovider) {
+			provider = LocationManager.GPS_PROVIDER;
+		} else if (Globals.isMobileDataAvailable && NetWorkprovider) {
+			provider = LocationManager.NETWORK_PROVIDER;
+		} else if (!GPSprovider && !NetWorkprovider) {
+			provider = null;
+		}
+		return provider;
+	}
+
+}

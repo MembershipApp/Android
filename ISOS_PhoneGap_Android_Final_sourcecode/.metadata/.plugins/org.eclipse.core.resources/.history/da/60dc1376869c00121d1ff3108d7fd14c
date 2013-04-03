@@ -1,0 +1,38 @@
+package com.infostretch.util;
+
+import android.text.TextUtils;
+
+public class Globals {
+
+	public static final String TAG = "ISOS_Android";
+	public static int airplaneModeStatus;
+	public static int wifiStatus;
+	public static String wifiStatusString;
+	public static boolean isWifiAvailable;
+	public static boolean isMobileDataAvailable;
+	public static String gmailaccount;
+	public static final String RESPONSE_ERROR_MESSAGE = "An error encountered while loading data, please try again";
+
+	public static final String SERVER_URL = "http://chris.membershipapp.c9.io"; 
+	
+	public static String Token = "";
+	 
+    // Google project id for the ISOS application
+    public static final String SENDER_ID = "721110860531";
+	public static final String HALOGEN_PREF = "ISOS_PREF";
+	public static final String LOGIN_ID = "loginid";
+	public static final String TOKEN = "token";
+	
+	public static boolean isResponseError(String data) {
+		boolean status = false;
+		if (!TextUtils.isEmpty(data)
+				&& (data.contains("ERROR") || data
+						.equalsIgnoreCase("Invalid API call"))) {
+			status = true;
+		}
+		return status;
+	}
+	
+	
+
+}
